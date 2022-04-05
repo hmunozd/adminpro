@@ -9,7 +9,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { ComponentsModule } from '../components/components.module';
-import { AccountSetingsComponent } from './account-setings/account-setings.component';
+import { AccountSettingsComponent } from './account-settings/account-setings.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 const routes: Routes = [{path: '', }];
 
@@ -19,14 +20,15 @@ const routes: Routes = [{path: '', }];
     Grafica1Component,
     DashboardComponent,
     PagesComponent,
-    AccountSetingsComponent
+    AccountSettingsComponent,
+    PromesasComponent
   ],
   exports: [
     ProgressComponent,
     Grafica1Component,
     DashboardComponent,
     PagesComponent,
-    AccountSetingsComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
