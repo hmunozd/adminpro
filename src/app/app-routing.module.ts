@@ -7,8 +7,8 @@ import { AuthRoutingModule } from './auth/auth-routing.routing';
 import { NofoundComponent } from './nofound/nofound.component';
 
 const routes: Routes = [
-  { path: '**', component: NofoundComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '**', component: NofoundComponent },
 
 ];
 

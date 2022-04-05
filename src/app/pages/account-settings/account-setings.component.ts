@@ -7,7 +7,7 @@ import { SettingsService } from 'src/app/services/settings.service';
   styles: [
   ]
 })
-export class AccountSetingsComponent implements OnInit {
+export class AccountSettingsComponent implements OnInit {
 
   constructor(
     private settings: SettingsService
