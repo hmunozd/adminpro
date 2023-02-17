@@ -23,7 +23,6 @@ export class BreadcrumbsComponent implements OnDestroy {
       });
   }
 
-
   getArgumentosRuta() {
     return this.router.events
       .pipe(
@@ -36,6 +35,5 @@ export class BreadcrumbsComponent implements OnDestroy {
   ngOnDestroy(): void {
     this.tituloSubs$.unsubscribe();
   }
-
 
 }
